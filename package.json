@@ -1,48 +1,42 @@
 {
   "name": "grunt-traceur",
-  "description": "A grunt plugin for Google's Traceur-Compile, a lib to compile ES6 JavaScript into ES3 JavaScript.",
-  "version": "0.0.2",
-  "homepage": "https://github.com/aaron/grunt-traceur",
+  "description": "Grunt plugin for Traceur compiler",
+  "version": "0.0.1",
+  "homepage": "https://github.com/vojtajina/grunt-traceur",
   "author": {
-    "name": "Aaron Frost",
-    "email": "aaronfrost@gmail.com",
-    "url": "40win.com"
+    "name": "Vojta Jína",
+    "email": "vojta.jina@gmail.com"
   },
-  "contributors": [
-    {
-      "name": "Manuel Braun",
-      "email": "mb@w69b.com"
-    }
-  ],
+  "contributors": [],
   "repository": {
     "type": "git",
-    "url": "git://github.com/aaronfrost/grunt-traceur.git"
+    "url": "git://github.com/vojtajina/grunt-traceur.git"
   },
   "bugs": {
-    "url": "https://github.com/aaronfrost/grunt-traceur/issues"
+    "url": "https://github.com/vojtajina/grunt-traceur/issues"
   },
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "https://github.com/aaronfrost/grunt-traceur/blob/master/LICENSE-MIT"
-    }
-  ],
-  "main": "Gruntfile.js",
+  "main": "tasks/traceur.js",
   "engines": {
-    "node": ">=0.8.0"
+    "node": ">= 0.8.0"
   },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "license": "MIT",
   "dependencies": {
-    "traceur": "0.0.6",
-    "async": "~0.2.9"
+    "traceur": "~0.0.8"
   },
   "peerDependencies": {
-    "grunt": "~0.4.0"
+    "grunt": "~0.4"
   },
   "devDependencies": {
-    "grunt": "~0.4.0",
-    "grunt-contrib-nodeunit": "~0.1.2"
+    "grunt": "~0.4",
+    "grunt-npm": "~0.0.1",
+    "grunt-auto-release": "~0.0.3"
   },
   "keywords": [
-    "gruntplugin"
+    "gruntplugin",
+    "traceur",
+    "es6"
   ]
 }
