@@ -24,7 +24,7 @@
   },
   "license": "MIT",
   "dependencies": {
-    "traceur": "~0.0.8"
+    "traceur": "~0.0.30"
   },
   "peerDependencies": {
     "grunt": "~0.4"
